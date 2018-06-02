@@ -1,26 +1,26 @@
-# »ù´¡ĞÅÏ¢ 
-* ÎÄ¼şÃû: Fuse.php
-* Àà&nbsp;&nbsp;Ãû: Fuse
-* ×÷&nbsp;&nbsp;Õß: meijinfeng
-* ¹¦&nbsp;&nbsp;ÄÜ: ¼ì²éÖ¸¶¨FunctionµÄÔËĞĞÊ±³¤¼°ÏûºÄÏêÇé
-* Ä¿&nbsp;&nbsp;Â¼: 605590351@qq.com
+# åŸºç¡€ä¿¡æ¯ 
+* æ–‡ä»¶å: Fuse.php
+* ç±»&nbsp;&nbsp;å: Fuse
+* ä½œ&nbsp;&nbsp;è€…: meijinfeng
+* åŠŸ&nbsp;&nbsp;èƒ½: æ£€æŸ¥æŒ‡å®šFunctionçš„è¿è¡Œæ—¶é•¿åŠæ¶ˆè€—è¯¦æƒ…
+* é‚®&nbsp;&nbsp;ç®±: 605590351@qq.com
 
-# ³ÉÔ±ÊôĞÔ 
-* print: intÀàĞÍ£¬Ä¬ÈÏÎª0£¬ÊÇ·ñ½«ÔËĞĞ¹ı³Ì´òÓ¡ÔÚ¿ØÖÆÌ¨¡£
+# æˆå‘˜å±æ€§ 
+* print: intç±»å‹ï¼Œé»˜è®¤ä¸º0ï¼Œæ˜¯å¦å°†è¿è¡Œè¿‡ç¨‹æ‰“å°åœ¨æ§åˆ¶å°ã€‚
 
-# ÀàµÄ·½·¨ 
-* funcStartRecord($funcName): ¼ÇÂ¼FunctionÔËĞĞ¿ªÊ¼ÔËĞĞÊ±µÄ»ù´¡Êı¾İ
-* funcEndRecord(): ¼ÇÂ¼FunctionÔËĞĞ½áÊøÊ±µÄ»ù´¡Êı¾İ
-* checkParamType($param, $descType): ÅĞ¶Ï²ÎÊıÀàĞÍ
-* formatRam($ram): ¸ñÊ½»¯×Ö½ÚÊı¾İ
+# ç±»çš„æ–¹æ³• 
+* funcStartRecord($funcName): è®°å½•Functionè¿è¡Œå¼€å§‹è¿è¡Œæ—¶çš„åŸºç¡€æ•°æ®
+* funcEndRecord(): è®°å½•Functionè¿è¡Œç»“æŸæ—¶çš„åŸºç¡€æ•°æ®
+* checkParamType($param, $descType): åˆ¤æ–­å‚æ•°ç±»å‹
+* formatRam($ram): æ ¼å¼åŒ–å­—èŠ‚æ•°æ®
 * run($typeArr, $funcParam)
- > ·½·¨¹¦ÄÜ£ºÖ´ĞĞFunction
- > ·½·¨²ÎÊı£º
+ > æ–¹æ³•åŠŸèƒ½ï¼šæ‰§è¡ŒFunction
+ > æ–¹æ³•å‚æ•°ï¼š
  > $typeArr['showTime'] int 0-1 default 0
  > $typeArr['showRam'] int 0-1 default 0
- > $typeArr['classObj'] object default '': µ÷ÓÃÀàµÄÄÚ²¿·½·¨ĞèÒªÓÃµ½´Ë²ÎÊı
- > $funcParam['name'] string funcÃû
- > $funcParam['args'] array  func²ÎÊı
+ > $typeArr['classObj'] object default '': è°ƒç”¨ç±»çš„å†…éƒ¨æ–¹æ³•éœ€è¦ç”¨åˆ°æ­¤å‚æ•°
+ > $funcParam['name'] string funcå
+ > $funcParam['args'] array  funcå‚æ•°
 
-# Ê¹ÓÃ 
-* ÊµÀı»¯Fuse£¬ÔËĞĞrun·½·¨
+# ä½¿ç”¨ 
+* å®ä¾‹åŒ–Fuseï¼Œè¿è¡Œrunæ–¹æ³•
