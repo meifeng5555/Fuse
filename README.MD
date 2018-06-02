@@ -14,13 +14,13 @@
 * checkParamType($param, $descType): 判断参数类型
 * formatRam($ram): 格式化字节数据
 * run($typeArr, $funcParam)
- > 方法功能：执行Function
- > 方法参数：
- > $typeArr['showTime'] int 0-1 default 0
- > $typeArr['showRam'] int 0-1 default 0
- > $typeArr['classObj'] object default '': 调用类的内部方法需要用到此参数
- > $funcParam['name'] string func名
- > $funcParam['args'] array  func参数
+ >* 方法功能：执行Function
+ >* 方法参数：
+ >* $typeArr['showTime'] int 0-1 default 0
+ >* $typeArr['showRam'] int 0-1 default 0
+ >* $typeArr['classObj'] object default '': 调用类的内部方法需要用到此参数
+ >* $funcParam['name'] string func名
+ >* $funcParam['args'] array  func参数
 
 # 使用 
 * 实例化Fuse，运行run方法
